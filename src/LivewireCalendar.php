@@ -33,7 +33,7 @@ use Livewire\Component;
  */
 class LivewireCalendar extends Component
 {
-    public $id;
+    public $id = 'livewire-calendar';
     public $startsAt;
     public $endsAt;
 
